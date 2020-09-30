@@ -16,6 +16,12 @@ During this meeting, we gave reminders about our team and FRC. This was due to t
 - Questions
 - Feedback
 
-See the [powerpoint](Week-1-Presentation.pdf). 
+See the [powerpoint](Week-1-Presentation.pdf). Make sure to invite any potential new members!
 
 # Additional Resources
+[Java SDK](https://www.oracle.com/java/technologies/javase-downloads.html): Software for Java Language
+[Discord](https://discord.com/): Communication Platform
+[Repl.it](https://repl.it/): Browser based IDE 
+[Visual Studio Code](https://code.visualstudio.com/): Powerful and Popular IDE
+[IntelliJ](https://www.jetbrains.com/idea/): Popular IDE for Java
+[Atom](https://atom.io/): Popular IDE
