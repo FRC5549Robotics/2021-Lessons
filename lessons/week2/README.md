@@ -33,6 +33,8 @@ During this meeting we discussed how to make these online daily meetings more ex
     - Machine Learning
     - Game Development
     - New Driver Station
+    - AI
+    - Voice Control Robot
 - FIRST Updates
     - In Person Season Unlikely
     - Virtual Innovation Challenge
