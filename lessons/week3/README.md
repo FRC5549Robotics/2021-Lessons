@@ -17,7 +17,5 @@ Object Oriented Programming was discussed during this meeting.
     - Robot w/ Subsystems
 # Additional Resources
 - [Object Oriented Programming - W3 Schools](https://www.w3schools.com/java/java_oop.asp)
-
 - [Object Oriented Programming Concepts](https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/)
-
 - [Video on Polymorphism](https://www.youtube.com/watch?v=tIWm3I_Zu7I)
