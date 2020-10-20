@@ -10,5 +10,5 @@ During this meeting, we covered command-based programming in FRC.
 - Implementation
 
 # Additional Resources
-- [FRC Docs](https://docs.wpilib.org/en/stable/docs/software/commandbased/index.html")
-- [Example]("https://github.com/dylantknguyen/FRC5549-2020-Java")
+- [FRC Docs](https://docs.wpilib.org/en/stable/docs/software/commandbased/index.html)
+- [Example](https://github.com/dylantknguyen/FRC5549-2020-Java)
