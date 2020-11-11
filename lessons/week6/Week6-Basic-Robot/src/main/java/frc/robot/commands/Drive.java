@@ -11,10 +11,11 @@ import frc.robot.subsystems.ExampleSubsystem;
 import edu.wpi.first.wpilibj2.command.CommandBase;
 import frc.robot.subsystem.drive;
 
-public class IntakeBall extends CommandBase {
-  private final Intake m_drive;
+public class Drive extends CommandBase {
+  private final Drive m_drive;
   private double m_axis1, m_axis2;
 
+  // Initialization
   public Drive(Drive drive, double joystickAxis, double joystickRotation) {
     m_drive = drive;
     m_axis1 = joystickAxis;

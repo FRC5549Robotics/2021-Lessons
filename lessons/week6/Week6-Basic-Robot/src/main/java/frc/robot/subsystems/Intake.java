@@ -16,17 +16,19 @@ public class Intake extends SubsystemBase {
   /**
    * Intake.
    */
-  WPI_TalonSRX top, bottom;
 
+  WPI_TalonSRX top, bottom;
   SpeedControllerGroup intakeMotors;
+  
   public Intake() {
+    // Motors
     top = new WPI_TalonSRX(4);
     bottom = new WPI_TalonSRX(5);
 
+    // Speed Controller Group
     intakeMotors = new SpeedControllerGroup(top, -bottom)
   }
 
-  @Override
   public void intake() {
     intakeMotors.run(1);
   }
@@ -35,7 +37,7 @@ public class Intake extends SubsystemBase {
     intakeMotors.run(-1);
   }
 
-  public void output() {
+  public void stop() {
     intakeMotors.run(0);
   }
 }
