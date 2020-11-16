@@ -12,4 +12,4 @@ Given the scenario below, we programmed a robot using the FRC Command-Based Fram
 # Additional Resources
 - [FRC5549-2020 Java](https://github.com/dylantknguyen/FRC5549-2020-Java)
 - [WPILIB Docs](https://docs.wpilib.org/en/stable/)
-- [FRC Java Docs](https://first.wpi.edu/FRC/roborio/release/docs/java/index.html
+- [FRC Java Docs](https://first.wpi.edu/FRC/roborio/release/docs/java/index.html)
