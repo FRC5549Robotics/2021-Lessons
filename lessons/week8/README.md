@@ -18,4 +18,4 @@ We covered actuators, sensors, and controllers
     - Usage
 
 # Additional Resources
-[WPILib](https://docs.wpilib.org/)
+- [WPILib](https://docs.wpilib.org/)
