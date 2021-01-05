@@ -7,7 +7,7 @@ Today, we decided to have fun and code a Discord bot!
 # Topics
 
 ### Installation
-Install discord.py 
+Install `discord.py`
 
 Windows:
 ```bash
@@ -29,9 +29,9 @@ client = discord.Client()
 
 @client.event
 async def on_ready():
-    print('We have logged in as {0.user}'.format(client))
+    print(f"We have logged in as {client.user}'.format(client))
 
-client.run('your token here')
+client.run('Token hEre')
 ```
 
 ### Adding Logging
@@ -75,7 +75,7 @@ async def hello(ctx):
 ```
 
 ### Command Arguments
-```
+```python
 @bot.command()
 async def reply(ctx, args):
     ctx.send(args)
@@ -86,12 +86,12 @@ async def reply(ctx, args):
 @bot.command()
 async def kick(ctx, args):
     server = ctx.guild
-    user = get_user(args[0])
+    user = get_user(args)
     server.kick(user)
 ```
 
 ### Member Join Message
-```
+```python
 async def on_member_join(self, member):
     guild = member.guild
     if guild.system_channel is not None:
@@ -101,3 +101,4 @@ async def on_member_join(self, member):
 
 # Additional Resources
 - [Discord.py Documentation](https://discordpy.readthedocs.io/en/latest/)
+- [Discord Developer Portal](https://discord.com/developers/applications)
