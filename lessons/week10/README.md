@@ -6,7 +6,7 @@ Today, we decided to have fun and code a Discord bot!
 
 # Topics
 
-## Installation
+### Installation
 Install discord.py 
 
 Windows:
@@ -21,7 +21,7 @@ python3 -m pip install -U discord.py
 
 Another way to install `discord.py` is by running `pip3 install -U discord.py`. However, this is not guaranteed to work on all systems.
 
-## Running Bot
+### Running Bot
 ```python
 import discord
 
@@ -34,7 +34,7 @@ async def on_ready():
 client.run('your token here')
 ```
 
-## Adding Logging
+### Adding Logging
 As the `logging` module is included with Python, it does not need to be installed.
 
 ```python
@@ -44,10 +44,10 @@ logging.basicConfig(level=logging.INFO)
 ...
 ```
 
-## Creating a Bot Account
+### Creating a Bot Account
 Follow the directions [here](https://discordpy.readthedocs.io/en/latest/discord.html).
 
-## Setting up Config
+### Setting up Config
 *config.py*
 ```python
 BOT_TOKEN=...
@@ -61,7 +61,7 @@ import config
 client.run(config.BOT_TOKEN)
 ```
 
-## Adding Commands
+### Adding Commands
 ```python
 ...
 from discord.ext import commands
@@ -74,14 +74,14 @@ async def hello(ctx):
     ctx.send(hello)
 ```
 
-## Command Arguments
+### Command Arguments
 ```
 @bot.command()
 async def reply(ctx, args):
     ctx.send(args)
 ```
 
-## Kick
+### Kick
 ```python
 @bot.command()
 async def kick(ctx, args):
@@ -90,7 +90,7 @@ async def kick(ctx, args):
     server.kick(user)
 ```
 
-## Member Join Message
+### Member Join Message
 ```
 async def on_member_join(self, member):
     guild = member.guild
