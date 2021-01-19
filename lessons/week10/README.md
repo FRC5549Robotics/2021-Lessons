@@ -1,5 +1,5 @@
-# Week <int> Meeting
-This meeting occured during the date of <date>.
+# Week 10 Meeting
+This meeting occured during the date of January 5th, 2021.
 
 # Summary
 Today, we decided to have fun and code a Discord bot!
